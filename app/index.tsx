@@ -11,6 +11,7 @@ import {
 import StatusBarCom from "@/components/StatusBar";
 import Activity from "@/components/Activity";
 import AlertCom from "@/components/Alert";
+import CustomBtn from "@/components/custom/CustomBtn";
 
 const HomePage = () => {
   return (
@@ -18,17 +19,18 @@ const HomePage = () => {
       <View style={styles.container}>
         <View style={styles.linkContainer}>
           <Link href="/modal">
-            <Text style={styles.linkText}>Modals</Text>
+            <Text style={styles.linkText}>Modal</Text>
           </Link>
         </View>
         <View style={styles.linkContainer}>
           <Link href="/blog">
-            <Text style={styles.linkText}>Blog</Text>
+            <Text style={styles.linkText}>Blog Page</Text>
           </Link>
         </View>
 
         <StatusBarCom />
         <Activity visible={false} />
+        <CustomBtn onPress={() => {}} title="Add" />
 
         <AlertCom />
       </View>
