@@ -11,6 +11,7 @@ import {
 import StatusBarCom from "@/components/StatusBar";
 import Activity from "@/components/Activity";
 import AlertCom from "@/components/Alert";
+//@ts-ignore
 import CustomBtn from "@/components/custom/CustomBtn";
 
 const HomePage = () => {
